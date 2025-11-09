@@ -1,0 +1,29 @@
+sprites:
+  tank_player:
+    file: "images/tanks/tank_player.png"
+    size: [40, 40]
+  tank_enemy:
+    file: "images/tanks/tank_enemy.png"
+    size: [40, 40]
+  bullet:
+    file: "images/bullets/bullet.png"
+    size: [8, 8]
+
+atlases:
+  explosions:
+    file: "images/effects/explosions.png"  # зроби так, як у тебе реально лежить
+    frame_size: [64, 64]
+    frames: 16
+
+sounds:
+  fire: "sounds/fire.wav"
+  explosion: "sounds/explosion.wav"
+  menu_music: "sounds/menu_music.ogg"
+
+fonts:
+  ui_font:
+    file: "fonts/verdana.ttf"
+    size: 24
+  big_font:
+    file: "fonts/verdana.ttf"
+    size: 64
